@@ -1,0 +1,120 @@
+:root {
+    /* Primary Colors */
+    --color-primary-dark: hsl(228, 100%, 66%);
+    --color-primary-light: hsl(228, 100%, 75%);
+    --color-secondary-light: hsl(227, 100%, 95%);
+    /* Neutral Colors */
+    --color-dark-gray: hsl(228, 22%, 26%);
+    --color-light-gray: hsl(227, 13%, 52%);
+    --color-black: hsl(229, 22%, 19%);
+    --color-pale-gray: hsl(0, 0%, 98%);
+    --color-white: hsl(0, 0%, 100%);
+    /* Error Color */
+    --color-error-red: hsl(0, 83%, 65%);
+    /* Shadow-Color */
+    --border-color: hsla(227, 13%, 52%, 0.5);
+    --shadow-color: hsla(227, 52%, 50%, 0.25);
+    /* Gradient Color */
+    --vertical-gradient: linear-gradient(
+        180deg,
+        hsl(0, 0%, 98%) 0%,
+        hsl(0, 0%, 98%) 60%,
+        hsl(229, 22%, 19%) 60%,
+        hsl(229, 22%, 19%) 100%
+    );
+    --sign-up-vertical-gradient: linear-gradient(
+        180deg,
+        hsl(0, 0%, 98%) 0%,
+        hsl(0, 0%, 98%) 75%,
+        hsl(229, 22%, 19%) 75%,
+        hsl(229, 22%, 19%) 100%
+    );
+    --horizontal-gradient: linear-gradient(
+        90deg,
+        hsl(0, 0%, 98%) 0%,
+        hsl(0, 0%, 98%) 60%,
+        hsl(229, 22%, 19%) 60%,
+        hsl(229, 22%, 19%) 100%
+    );
+    --sign-up-horizontal-gradient: linear-gradient(
+        90deg,
+        hsl(0, 0%, 98%) 0%,
+        hsl(0, 0%, 98%) 70%,
+        hsl(229, 22%, 19%) 70%,
+        hsl(229, 22%, 19%) 100%
+    );
+
+    /* Font Family */
+    --ff-serif: serif;
+    --ff-sans-serif: "Kumbh Sans", sans-serif;
+    /* Font Sizes */
+    --fs-150: 9.375rem;
+    --fs-96: 6rem;
+    --fs-80: 5rem;
+    --fs-72: 4.5rem;
+    --fs-64: 4rem;
+    --fs-56: 3.5rem;
+    --fs-48: 3rem;
+    --fs-40: 2.5rem;
+    --fs-36: 2.25rem;
+    --fs-32: 2rem;
+    --fs-24: 1.5rem;
+    --fs-28: 1.75rem;
+    --fs-20: 1.25rem;
+    --fs-18: 1.125rem;
+    --fs-16: 1rem;
+    --fs-15: 0.9375rem;
+    --fs-14: 0.875rem;
+    --fs-12: 0.75rem;
+    /* Font Weights */
+    --fw-900: 900;
+    --fw-800: 800;
+    --fw-700: 700;
+    --fw-600: 600;
+    --fw-500: 500;
+    --fw-400: 400;
+    --fw-300: 300;
+    /* Line Height */
+    --lh-88: 5.5rem;
+    --lh-72: 4.5rem;
+    --lh-64: 4rem;
+    --lh-56: 3.5rem;
+    --lh-55: 3.4375rem;
+    --lh-48: 3rem;
+    --lh-44: 2.75rem;
+    --lh-40: 2.5rem;
+    --lh-36: 2.25rem;
+    --lh-32: 2rem;
+    --lh-30: 1.875rem;
+    --lh-28: 1.75rem;
+    --lh-26: 1.625rem;
+    --lh-25: 1.5625rem;
+    --lh-15: 0.9375rem;
+    /* Spacer */
+    --spacer: 1rem;
+}
+
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.sr-only {
+    border: 0 !important;
+    clip: rect(1px, 1px, 1px, 1px) !important;
+    -webkit-clip-path: inset(50%) !important;
+    clip-path: inset(50%) !important;
+    height: 1px !important;
+    margin: -1px !important;
+    overflow: hidden !important;
+    padding: 0 !important;
+    position: absolute !important;
+    width: 1px !important;
+    white-space: nowrap !important;
+}
